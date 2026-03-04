@@ -160,10 +160,12 @@ Regularly prune obviously unsuitable leads from the active outreach pool (overpr
 - [ ] Active lead table clearly separates `Рабочий пул` and `Исключено` with explicit reason per excluded lead.
 - [ ] Exclusion rules are documented and include at least: overpriced, stale by date, and low-trust/unconfirmed.
 - [ ] Shortlist reflects only active leads after pruning.
+- [ ] A separate outreach priority queue exists for immediate contact (no excluded leads).
 
 **Verification:**
 - Open `artifacts/lead_table_2026-03-04.md` and verify it has separate sections `Рабочий пул (41)` and `Исключённые из активного пула (4)` plus reasons table.
 - Open `artifacts/shortlist.md` and verify no excluded lead remains in Top or finalists sections.
+- Open `artifacts/active_outreach_queue.md` and verify all entries are from the active pool and none are excluded IDs.
 
 ## Backlog (Optional)
 - Add additional locations and optional provider fallbacks.
