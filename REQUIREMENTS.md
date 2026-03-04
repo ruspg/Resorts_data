@@ -150,5 +150,20 @@ Keep the rental research artifacts up to date with the latest verified lead tabl
 - Open `artifacts/shortlist.md` and confirm Top-13 and Top-5 finalists sections match the latest user-provided pack.
 - Open `artifacts/README.md` and confirm it links to the consolidated lead table and updated shortlist/finalists.
 
+
+
+### Rental leads hygiene (de-prioritization pass)
+**Goal:**
+Regularly prune obviously unsuitable leads from the active outreach pool (overpriced, stale, or low-trust) while keeping an audit trail in artifacts.
+
+**Acceptance Criteria:**
+- [ ] Active lead table clearly separates `Рабочий пул` and `Исключено` with explicit reason per excluded lead.
+- [ ] Exclusion rules are documented and include at least: overpriced, stale by date, and low-trust/unconfirmed.
+- [ ] Shortlist reflects only active leads after pruning.
+
+**Verification:**
+- Open `artifacts/lead_table_2026-03-04.md` and verify excluded entries are moved out of the active pool with a reason.
+- Open `artifacts/shortlist.md` and verify no excluded lead remains in Top or finalists sections.
+
 ## Backlog (Optional)
 - Add additional locations and optional provider fallbacks.
