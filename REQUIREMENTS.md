@@ -162,7 +162,7 @@ Regularly prune obviously unsuitable leads from the active outreach pool (overpr
 - [ ] Shortlist reflects only active leads after pruning.
 
 **Verification:**
-- Open `artifacts/lead_table_2026-03-04.md` and verify excluded entries are moved out of the active pool with a reason.
+- Open `artifacts/lead_table_2026-03-04.md` and verify it has separate sections `Рабочий пул (41)` and `Исключённые из активного пула (4)` plus reasons table.
 - Open `artifacts/shortlist.md` and verify no excluded lead remains in Top or finalists sections.
 
 ## Backlog (Optional)
